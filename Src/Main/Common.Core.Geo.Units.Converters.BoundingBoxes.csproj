@@ -88,6 +88,7 @@
     <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="SQLSpatialTools">
       <HintPath>..\..\..\..\..\..\..\..\DevDependencies\SQLServer\SQLSpatialTools\build\v1.0\bin\AnyCPU\release\SQLSpatialTools.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -102,33 +103,43 @@
     <Reference Include="System.Xml" />
     <Reference Include="Tamu.GeoInnovation.Common.Core.Colors">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Colors\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Colors.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Drawing">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Drawing\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Drawing.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.ExceptionHandling">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\ExceptionHandling\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.ExceptionHandling.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.DistanceFunctions">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.DistanceFunctions\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.DistanceFunctions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Geometries">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Geometries\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Geometries.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Geo.Units.Converters">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Security">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Security\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Security.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Threading">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Threading\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Threading.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Tamu.GeoInnovation.Common.Core.Utils">
       <HintPath>..\..\..\..\..\..\..\..\DevBuild\Tamu\GeoInnovation\Common\Core\Utils\build\1.0.0\release\Tamu.GeoInnovation.Common.Core.Utils.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="LICENSE.md" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -155,7 +167,9 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="LICENSE.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--  
   <Target Name="BeforeBuild">

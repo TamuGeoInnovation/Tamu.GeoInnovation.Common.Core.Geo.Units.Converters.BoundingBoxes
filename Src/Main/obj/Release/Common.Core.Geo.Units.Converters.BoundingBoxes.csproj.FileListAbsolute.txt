@@ -4,3 +4,7 @@ C:\DevSource\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters.BoundingBoxes\S
 C:\DevSource\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters.BoundingBoxes\Src\Main\obj\Release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll
 C:\DevSource\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters.BoundingBoxes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll.config
 C:\DevSource\Tamu\GeoInnovation\Common\Core\Geo.Units.Converters.BoundingBoxes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll
+C:\DevSource\Tamu\GeoInnovation\Common.Core.Geo.Units.Converters.BoundingBoxes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll.config
+C:\DevSource\Tamu\GeoInnovation\Common.Core.Geo.Units.Converters.BoundingBoxes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll
+C:\DevSource\Tamu\GeoInnovation\Common.Core.Geo.Units.Converters.BoundingBoxes\Src\Main\obj\Release\Common.Core.Geo.Units.Converters.BoundingBoxes.csprojResolveAssemblyReference.cache
+C:\DevSource\Tamu\GeoInnovation\Common.Core.Geo.Units.Converters.BoundingBoxes\Src\Main\obj\Release\Tamu.GeoInnovation.Common.Core.Geo.Units.Converters.BoundingBoxes.dll
